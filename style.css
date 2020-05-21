@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* to right, */
+body{
+    background-color: #eef0f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 0.875in;
+    background-color: #3b5998 ;
+    position: relative;
+}
+.header img{
+    width: 1.781in; 
+    height: 0.356in; 
+    margin-top: 0.323in; 
+    margin-left: 1.656in;
+}
+.login{
+    float: right;
+    margin-top: 0.177in;
+    display: flex;
+    flex-direction: row;
+}
+.login .email{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 4.335in;
+}
+.login .pass{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 2.646in;
+}
+button{
+    position: absolute;
+    right: 1.698in;
+    margin-top: 39px;
+    width: 0.792in;
+    height: 0.229in;
+    border: 1px solid #29487d;
+    background-color: #4267b2;
+    color: #f3ffff;
+    font-weight: 600;
+}
+.main span{
+    position: absolute;
+    margin-left: 1.656in;
+    margin-top: 40px;
+    font-size: 20px; 
+    word-spacing: -1px; 
+    font-family: inherit; 
+    color: #0e385f;
+    font-weight: bold;
+    line-height: 29px;
+}
+.main img{
+    position: absolute;
+    margin-left: 1.656in;
+    margin-top: 1.073in;
+}   
+.sign-in .title-sign {
+    display: flex;
+    flex-direction: column; 
+    color: #333333; 
+    position: absolute; 
+    right: 1.55in;
+    margin-top: 29px;
+}
+.main-input input{
+    position: absolute;
+    right: 0px;
+}
+.sign-in .title-sign .name input{
+    padding: 8px 10px; 
+    width: 1.9in; 
+    height: 25px; 
+    border-radius: 5px; 
+    border: 1px solid #bdc7d8; 
+    font-size: 18px;
+    margin-top: -20px;
+}
+.info{
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    padding: 8px 10px;
+    font-size: large;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0px 10px 0px 3px;
+    margin-top: 15px;
+}
+.btn{
+    font-size: 19px; 
+    line-height: 126%; 
+    padding: 7px 20px; 
+    position: absolute; 
+    bottom: -140px;
+    width: 2.032in;
+    height: 0.427in;
+    background-color: #69a74e;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: inset 0 1px 1px #a4e388;
+    background: linear-gradient(#67ae55, #578843);
+    left: 0px;
+}
+.footer{
+    height: 1.781in;
+    background-color: #fff;
+    position: relative;
+    top: 630px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer .content-footer{
+    width: 10.241in;
+    height: 0.542in;
+    border-bottom: 1px solid #dddfe2;
+}
+.language{
+    text-decoration: none;
+    color: #385898;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.language {
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+.down-footer{
+    background-color: #fff;
+    position: relative;
+    top: 550px;
+
+}
+.setting-footer{
+    text-decoration: none;
+    color: #385898;
+    font-size: 13px;
+    width: 10.241in;
+    height: 0.542in;
+    position: relative;
+    left: 160px;
+    top: -30px;
+    margin-right: 10px;
+}
+.dropbtn{
+    background-color: #fff; 
+    position: relative; 
+    top: -130px; 
+    left: 0px; 
+    width: 62px;
+    height: 30px; 
+    border: 1px solid #ccd0d5;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: -432px;
+    width: 60px;
+    height: 340px;
+    text-align: center;
+    border: 1px solid #7b9cd3;
+
+  }
+.dropdown-content a, .dropdown-content-month a, .dropdown-content-years a{
+    color: #1c1e21;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    height: 30px;
+}
+  
+.dropdown-content a:hover,  .dropdown-content-month a:hover {
+    background-color: #1e90ff;
+    width: 60px;
+}
+
+.show {display: block;}
+.dropbtn1{
+    background-color: #fff; 
+    width: 100px; 
+    height: 30px;
+    position: relative; 
+    top: -99px; 
+    float: right;
+    right: 256px;
+    border: 1px solid #ccd0d5;
+}
+
+.dropdown-content-month, .dropdown-content-years{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: -432px;
+    width: 60px;
+    height: 340px;
+    text-align: center;
+    border: 1px solid #7b9cd3;
+}
+.dropbtn2{
+    background-color: #fff;  
+    height: 30px;
+    position: relative; 
+    top: -168px; 
+    float: right;
+    right: 186px;
+    border: 1px solid #ccd0d5;
+    width: 70px;
+}
